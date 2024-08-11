@@ -1,0 +1,25 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+#root {
+  height: 100vh; /* Make sure it covers the full viewport height */
+  width: 100vw; /* Ensure it takes up the full viewport width */
+  background-image: url('F:/portfolio/portfolio/src/background.jpg'); /* Update with the correct path */
+  background-size: cover; /* Ensure the image covers the entire element */
+  background-position: center center; /* Center the image */
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+  background-repeat: no-repeat; /* Prevent repeating of the image */
+}
+
+.app-content {
+  min-height: 100vh; /* Ensure the content area takes up at least the full viewport height */
+  position: relative;
+  z-index: 1; /* Ensure content is on top of the background */
+  width: 90vw; /* Ensure content is within the viewport width */
+  margin: 0 auto; /* Center the content horizontally */
+}
