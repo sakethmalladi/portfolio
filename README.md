@@ -47,14 +47,14 @@ This project is a personal portfolio website developed with React, showcasing wo
 ### My Education
 
 - **Purpose**: Lists educational qualifications and achievements.
-- **Components**: Displays a list of degrees, certifications, and relevant coursework.
+- **Components**: Displays a list of degrees, certifications.
 - **Content**: Includes details of academic institutions attended, degrees obtained, and dates.
 
 ### My Work Experience
 
 - **Purpose**: Showcases professional experience and roles held.
 - **Components**: Uses cards to display job titles, descriptions, and roles. When a card is clicked, it shows a new card with additional details.
-- **Content**: Includes job titles, company names, and descriptions. On hover, a description is shown, and when a card is clicked, a new card displays the text "Hello World."
+- **Content**: Includes job titles, company names, and descriptions. On hover, a description is shown, and when a card is clicked, a new card displays the expereince.
 
 ### My Projects
 
