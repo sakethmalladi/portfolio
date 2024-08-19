@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# My Portfolio Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This project is a personal portfolio website developed with React, showcasing work experience, education, projects, and more. The website features interactive components like the `MyExperience` card component, which displays a list of work experiences and allows users to interact with the cards to reveal additional information.
 
-In the project directory, you can run:
+## Features
 
-### `yarn start`
+- **Home Page**: Introduction and navigation to other sections.
+- **About Me Page**: Information about the user.
+- **My Education Page**: Details about educational background.
+- **My Work Experience Page**: Interactive cards displaying work experience.
+- **My Projects Page**: List of projects with details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React, Material-UI
+- **Styling**: Styled Components, CSS
+- **Routing**: React Router
 
-### `yarn test`
+# My Portfolio
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `yarn build`
+- **src/**: Source files for the React application.
+  - **components/**: Contains reusable components like `MyExperience`.
+  - **pages/**: Contains page components for different sections of the portfolio.
+  - **App.js**: Main application file with routing and layout.
+  - **index.js**: Entry point for the React application.
+- **public/**: Contains public assets and the HTML file.
+- **package.json**: Project metadata and dependencies.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Home
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Purpose**: Introduces the portfolio and provides navigation to other sections.
+- **Components**: Displays a welcome message and overview of the portfolio.
+- **Content**: Brief introduction and links to About Me, My Education, My Work Experience, and My Projects pages.
 
-### `yarn eject`
+### About Me
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Purpose**: Provides information about the user, including background, interests, and personal details.
+- **Components**: Displays a detailed biography and any relevant personal information.
+- **Content**: Includes sections on education, professional background, and personal interests.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### My Education
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Purpose**: Lists educational qualifications and achievements.
+- **Components**: Displays a list of degrees, certifications, and relevant coursework.
+- **Content**: Includes details of academic institutions attended, degrees obtained, and dates.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### My Work Experience
 
-## Learn More
+- **Purpose**: Showcases professional experience and roles held.
+- **Components**: Uses cards to display job titles, descriptions, and roles. When a card is clicked, it shows a new card with additional details.
+- **Content**: Includes job titles, company names, and descriptions. On hover, a description is shown, and when a card is clicked, a new card displays the text "Hello World."
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### My Projects
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Purpose**: Highlights key projects and achievements.
+- **Components**: Displays project cards with titles, descriptions, and links.
+- **Content**: Includes project names, brief descriptions, and any associated links or further details.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
